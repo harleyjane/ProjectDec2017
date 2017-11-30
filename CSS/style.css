@@ -1,0 +1,280 @@
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+#header {
+  height: 100px;
+  background-color: #24364e;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+#name {
+  color: #ffffff;
+  list-style-type: none;
+  Font: sans-serif;
+  Font-size: 24px;
+  Font-weight: normal;
+  margin-bottom: -5px;
+  padding-top: 15px;
+}
+
+#job-title {
+  color: #ffffff;
+  Font: sans-serif;
+  font-size: small;
+  font-weight: normal;
+  background-color: none;
+}
+
+ul {
+  display: inline;
+  font-family: sans-serif;
+}
+
+nav {
+  width: auto;
+  height: 50px;
+  margin-top: -15px;
+  padding-top: 0;
+  background-color: #24364e;
+  font-family: sans-serif;
+  border-bottom-color: #24364e;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  padding: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.icons {
+  float: left;
+  padding-left: 0;
+}
+
+.words {
+  float: right;
+  text-align: right;
+  padding-right: 0;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+h3 {
+  font-size: small;
+  font-family: sans-serif;
+  color: #A1A1A1;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  background-color: #6dc7b6
+}
+
+p {
+  max-width: 580px;
+  font-size: medium;
+  font-weight: normal;
+  box-shadow: none;
+}
+
+P {
+  color: #656565;
+}
+
+h6 {
+  color: #959595;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+ol {
+  list-style-type: square;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 760px) {
+  .h3 {
+    font-size: medium;
+  }
+  #job-title {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .h3 {
+    font-size: large;
+  }
+  #job-title {
+    font-size: large
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #header {
+    background-color: #24364e;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+  #name {
+    color: #ffffff;
+    margin-bottom: -20px;
+  }
+  #job-title {
+    padding-top: -20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  fieldset {
+    background-color: #F3F2F0;
+  }
+  legend {
+    font-size: x-large;
+  }
+  .required {
+    color: red;
+  }
+  nav {
+    display: flex;
+    background-color: #24364e;
+    height: 113px;
+    justify-content: space-between;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+  }
+  #icons {
+    margin-top: 20px;
+    text-align: left;
+  }
+  #words {
+    margin-top: 20px;
+    text-align: right;
+  }
+  a {
+    color: #A1A1A1;
+  }
+  a:hover {
+    color: red;
+  }
+  a:visit {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .h3 {
+    font-size: medium;
+  }
+  #job-title {
+    font-size: medium
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .h3 {
+    font-size: large;
+  }
+  #job-title {
+    font-size: large
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #header {
+    background-color: #24364e;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+  #name {
+    color: #ffffff;
+    margin-bottom: -20px;
+  }
+  #job-title {
+    padding-top: -20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  fieldset {
+    background-color: #F3F2F0;
+  }
+  legend {
+    font-size: x-large;
+  }
+  .required {
+    color: red;
+  }
+  nav {
+    display: flex;
+    background-color: #F6F2EF;
+    height: 113px;
+    justify-content: space-between;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+  }
+  #icons {
+    margin-top: 20px;
+    text-align: left;
+  }
+  #words {
+    margin-top: 20px;
+    text-align: right;
+  }
+  a {
+    color: #A1A1A1;
+  }
+  a:hover {
+    color: red;
+  }
+  a:visit {
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  #header {
+    background-color: #24364e;
+    padding-bottom: 15px;
+    padding-top: 1px;
+  }
+  #name {
+    color: #ffffff;
+  }
+  .articles {
+    text-align: center;
+  }
+  li {
+    display: block;
+    list-style-type: circle;
+  }
+}
